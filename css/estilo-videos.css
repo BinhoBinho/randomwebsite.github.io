@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+h2 { 
+    text-align: center;
+    color: crimson;
+    font-size: xx-large;
+
+}
+
+article#radio-tv {
+    width: 900px;
+    height: 580px;
+    background: url(../imagens/radio-tv.png);
+    margin: 5px auto 5px auto;
+    position: relative;
+}
+
+iframe#movie {
+    display: block;
+    position: relative;
+    width: 450px;
+    height: 300px;
+    top: 98px;
+    left: 82px;
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: red;
+}
+
+form {
+    width: 1000px;
+    margin: auto;
+}
+
+input textarea {
+    font: 1.0vw verdana;
+}
+
+legend {
+    color: white;
+    font: 1.3vw verdana;
+    font-weight: bold;
+}
+
+fieldset {
+    border: crimson solid 2px;
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+label {
+    color: white;
+}
+
+fieldset#usuario {
+    background: url(/imagens/icon-contato.png) no-repeat 90% 1%;
+}
+
+fieldset#endereco {
+    background: url(/imagens/icon-endereco.png) no-repeat 95% 95%;
+}
+
+fieldset#mensagem {
+    background: url(/imagens/icon-mensagem.png) no-repeat 95% 95%;
+}
